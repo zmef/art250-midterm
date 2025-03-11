@@ -7,41 +7,41 @@ body {
     padding: 0;
 }
 
-header, nav, main, footer {
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
+header {
+    background: url('../images/headerbg.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
+header img {
+    background: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
 }
 
 nav {
-    background-color: #333;
+    background-color: #222;
     text-align: center;
+    padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 15px;
     display: inline-block;
+    transition: background 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #4CAF50;
+    background-color: #cc3c3c;
 }
 
 h1, h2, h3 {
-    color: #4CAF50;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
+    color: #cc3c3c;
 }
 
 ul li {
@@ -64,7 +64,7 @@ form textarea {
 }
 
 form button {
-    background-color: #4CAF50;
+    background-color: #cc3c3c;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -73,11 +73,11 @@ form button {
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #a83232;
 }
 
 footer {
-    background-color: #333;
+    background-color: #222;
     color: white;
     text-align: center;
     padding: 10px;
