@@ -93,4 +93,69 @@ nav a:hover {
 }
 
 h1, h2, h3 {
-    color: #cc3c ▋
+    color: #cc3c3c;
+}
+
+h1 {
+    background-color: black;
+}
+
+ul li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+ul li img {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #cc3c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a83232;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* New styles for paragraphs */
+p {
+    font-size: 1.2em; /* Slightly larger text */
+}
+
+p::first-letter {
+    font-size: 2em; /* Large first letter */
+    font-weight: bold; /* Bold the first letter for emphasis */
+}
