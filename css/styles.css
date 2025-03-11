@@ -1,5 +1,9 @@
+/* Apply Space Grotesk to the entire site */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Default weight, you can adjust as needed */
+    font-style: normal;
     line-height: 1.6;
     background-color: #f4f4f9;
     color: #333;
@@ -94,6 +98,7 @@ nav a:hover {
 
 h1, h2, h3 {
     color: #cc3c3c;
+    font-family: "Space Grotesk", sans-serif; /* Ensure headings also use Space Grotesk */
 }
 
 h1 {
@@ -109,20 +114,20 @@ ul li {
 }
 
 ul li img {
-    width: 90%;
+    width: 100%;
     max-width: 600px; /* Adjust as needed */
     height: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 form input[type="text"],
 form input[type="email"],
 form input[type="date"],
 form textarea {
-    width: 90%;
-    padding: 20px;
-    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
