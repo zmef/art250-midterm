@@ -44,6 +44,10 @@ h1, h2, h3 {
     color: #cc3c3c;
 }
 
+h1 {
+    background-color: black;
+}
+
 ul li {
     background: #fff;
     margin: 5px 0;
