@@ -109,20 +109,20 @@ ul li {
 }
 
 ul li img {
-    width: 100%;
+    width: 90%;
     max-width: 600px; /* Adjust as needed */
     height: auto;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 form input[type="text"],
 form input[type="email"],
 form input[type="date"],
 form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
