@@ -103,3 +103,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* New styles for paragraphs */
+p {
+    font-size: 1.2em; /* Slightly larger text */
+}
+
+p::first-letter {
+    font-size: 2em; /* Large first letter */
+    font-weight: bold; /* Bold the first letter for emphasis */
+}
