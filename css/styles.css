@@ -5,9 +5,20 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    position: relative;
+}
+
+body::after {
+    content: "";
     background: url('../images/homebg.jpg') no-repeat center center;
     background-size: cover;
     opacity: 0.1; /* Adjust opacity for transparency */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the background is behind all content */
 }
 
 header {
