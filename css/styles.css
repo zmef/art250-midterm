@@ -16,7 +16,7 @@ body::after {
     content: "";
     background: url('../images/homebg.jpg') no-repeat center center;
     background-size: cover;
-    opacity: 0.1; /* Adjust opacity for transparency */
+    opacity: 0.2; /* Adjust opacity for transparency */
     position: absolute;
     top: 0;
     left: 0;
