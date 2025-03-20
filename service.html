@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Planet X Deliveries</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Planet X Deliveries Logo">
+        <h1>Our Services</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="dropdown">
+            <a href="services.html" class="dropbtn">Services</a>
+            <div class="dropdown-content">
+                <a href="services.html#shipping">Shipping</a>
+                <a href="services.html#tracking">Tracking</a>
+                <a href="services.html#billing">Billing</a>
+                <a href="services.html#interstellar-trade">Interstellar Trade</a>
+                <a href="services.html#contract-logistics">Contract Logistics</a>
+            </div>
+        </div>
+        <a href="technology.html">Technology</a>
+        <a href="sustainability.html">Sustainability</a>
+        <a href="x-commerce.html">X-Commerce</a>
+        <a href="customer-solutions.html">Customer Solutions</a>
+    </nav>
+    <ul>
+        <li id="shipping">
+            <img src="images/shipping.jpg" alt="Shipping Image">
+            <p>Services and technology for managing your shipping process—from individuals to enterprises, local to interstellar.</p>
+            <!-- Form added to the shipping section -->
+            <form action="#" method="post">
+                <h2>PlanetX Deliveries - "We Deliver... Eventually!"</h2>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="e.g., Captain Space McCargo">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="e.g., youremail@planetx.com">
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" required placeholder="Include Earth coordinates if necessary"></textarea>
+                <label for="package">Package Type:</label>
+                <select id="package" name="package">
+                    <option value="fragile">Fragile (Handle with mild indifference)</option>
+                    <option value="perishable">Perishable (We’ll try to get it there before it expires... maybe)</option>
+                    <option value="mystery">Mystery Box (Even we don't know what's inside!)</option>
+                    <option value="explosive">Highly Volatile (Boom! Just kidding... or are we?)</option>
+                </select>
+                <label for="speed">Delivery Speed:</label>
+                <select id="speed" name="speed">
+                    <option value="snail">Snail Mail (Delivered by actual snails)</option>
+                    <option value="standard">Standard (Give or take a few weeks)</option>
+                    <option value="warp">Warp Speed (Might rip a hole in space-time)</option>
+                    <option value="teleport">Quantum Teleportation (Good luck finding it!)</option>
+                </select>
+                <label for="instructions">Special Instructions:</label>
+                <textarea id="instructions" name="instructions" placeholder="e.g., Avoid intergalactic pirates, drop it via parachute, leave it with the aliens."></textarea>
+                <label for="insurance">Insurance Options:</label>
+                <select id="insurance" name="insurance">
+                    <option value="none">None (Hope for the best)</option>
+                    <option value="some">Some (We’ll send you good vibes if lost)</option>
+                    <option value="full">Full (Covered unless a black hole eats it)</option>
+                </select>
+                <label>
+                    <input type="checkbox" name="terms" required> I agree that PlanetX Deliveries is not responsible for acts of space-time distortion, alien abduction, or lost socks.
+                </label>
+                <button type="submit">Send My Package (Probably)</button>
+            </form>
+        </li>
+        <li id="tracking">
+            <img src="images/tracking.jpg" alt="Tracking Image">
+            <p>Monitoring and management solutions for individuals, complex interstellar supply chains, and everyone in between.</p>
+        </li>
+        <li id="billing">
+            <img src="images/billing.jpg" alt="Billing Image">
+            <p>View and manage your PLANET X DELIVERIES invoices securely online, with additional features to streamline your process.</p>
+        </li>
+        <li id="interstellar-trade">
+            <img src="images/trade.jpg" alt="Interstellar Trade Image">
+            <p>Services, resources, and technologies to help get your products through customs to market more quickly.</p>
+        </li>
+        <li id="contract-logistics">
+            <img src="images/logistics.gif" alt="Contract Logistics Image">
+            <p>Expertise and infrastructure to optimize your supply chain, from interstellar delivery to warehousing and returns management.</p>
+        </li>
+    </ul>
+</body>
+</html>
