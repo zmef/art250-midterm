@@ -1,0 +1,55 @@
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    /* Navigation bar: Stack layout for small screens */
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    /* Dropdown menu: Full-width for smaller screens */
+    .dropdown-content {
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Header: Adjust padding and font size for smaller screens */
+    header {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header img {
+        max-width: 200px;
+    }
+
+    /* Form: Adjust input fields and button size */
+    form input, form button {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    form h2 {
+        font-size: 1.2em;
+    }
+
+    /* General: Reduce padding and margins */
+    body {
+        padding: 10px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
